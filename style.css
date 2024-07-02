@@ -1,0 +1,39 @@
+.home{
+    background-color: #586994;
+}
+h1{
+    color: white;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.button{
+    padding:10px;
+}
+.button1{
+    background-color:#ABC798;
+    border-radius: 12px;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white;
+    
+}
+.button2{
+    background-color: #EDAF97;
+    border-radius: 12px;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white;
+}
+.button3{
+    background-color:#84D2F6;
+    border-radius: 12px;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white;
+}
+
+.aboutus{
+    background-color:#ABC798;
+}
+
+  
