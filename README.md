@@ -1,2 +1,2 @@
 # HouseAndPetSitting
-A website for Josh and I'd pet sitting business 
+A website for a pet sitting business 
