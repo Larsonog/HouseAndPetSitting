@@ -18,11 +18,12 @@
     <style>
         .site-container {
             max-width: auto;
-            max-height:auto;
+            max-height: auto;
             margin: 3em auto;
             padding: 2em;
             display: flex;
-
+            flex-wrap: wrap;
+            
         }
 
         .demo-title {
@@ -32,124 +33,124 @@
 
         .slideshow {
             padding-right: 50px;
-            min-width: 800px;
-           
+            min-width: 500px;
+            width: auto;
+            height: auto;
+            display:block;
+            margin:auto;
+
         }
     </style>
 </head>
 
 <body>
     <div class="aboutus">
-        <button type="button" class="buttonBack" onclick="window.location.href = 'index.html';" >back</button>
+        <button type="button" class="buttonBack" onclick="window.location.href = 'index.html';">back</button>
         <div class="container">
             <div class="text-center">
                 <h1>about us</h1>
             </div>
         </div>
-    
-    
-    <div class="site-container">
-        
-        <div class="">
-            
-            <div class="row">
-                <div class="col">
-                    <div class="slideshow">
-                        <div id="carousel-1" class="carousel" role="region" aria-labelledby="carousel-1-title">
-                            <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-1-title">
-                                <div class="slide-content">
-                                    <div class="slide-caption">
-                                        <h3 id="carousel-1-slide-1-title">Josh and Olivia biking</h3>
-                                        <p> </p>
-                                    </div>
-                                    <img src="/assets/biking.png" alt="Josh and Olivia biking" width="auto"
-                                        height="auto" />
-                                </div>
+
+        <div class="site-container">
+            <div class="slideshow">
+                <div id="carousel-1" class="carousel" role="region" aria-labelledby="carousel-1-title">
+                    <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-1-title">
+                        <div class="slide-content">
+                            <div class="slide-caption">
+                                <h3 id="carousel-1-slide-1-title">Josh and Olivia biking</h3>
+                                <p> </p>
+                            </div>
+                            <img src="/assets/biking.png" alt="Josh and Olivia biking" width="auto" height="auto" />
+                        </div>
+                    </div>
+
+                    <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-2-title">
+                        <div class="slide-content">
+                            <div class="slide-caption">
+                                <h3 id="carousel-1-slide-2-title">We love the Blues</h3>
+                                <p> </p>
+                            </div>
+                            <img src="/assets/blues.JPG" alt="Josh and Olivia wearing Blues jerseys" width="800"
+                                height="350" />
+                        </div>
+                    </div>
+
+                    <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-3-title">
+                        <div class="slide-content">
+                            <div class="slide-caption">
+                                <h3 id="carousel-1-slide-3-title">at Hendrix College</h3>
+                                <p> </p>
                             </div>
 
-                            <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-2-title">
-                                <div class="slide-content">
-                                    <div class="slide-caption">
-                                        <h3 id="carousel-1-slide-2-title">We love the Blues</h3>
-                                        <p> </p>
-                                    </div>
-                                    <img src="/assets/blues.JPG" alt="Josh and Olivia wearing Blues jerseys" width="800"
-                                        height="350" />
-                                </div>
+                            <img src="/assets/flowers.JPG" alt="Josh and Olivia at Hendrix College" width="800"
+                                height="350" />
+                        </div>
+                    </div>
+                    <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-4-title">
+                        <div class="slide-content">
+                            <div class="slide-caption">
+                                <h3 id="carousel-1-slide-4-title">When we visited Anheiser Busch</h3>
+                                <p></p>
                             </div>
 
-                            <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-3-title">
-                                <div class="slide-content">
-                                    <div class="slide-caption">
-                                        <h3 id="carousel-1-slide-3-title">at Hendrix College</h3>
-                                        <p> </p>
-                                    </div>
-
-                                    <img src="/assets/flowers.JPG" alt="Josh and Olivia at Hendrix College" width="800"
-                                        height="350" />
-                                </div>
+                            <img src="/assets/lights.JPG" alt="Josh and Olivia in a light tunnel" width="800"
+                                height="350" />
+                        </div>
+                    </div>
+                    <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-4-title">
+                        <div class="slide-content">
+                            <div class="slide-caption">
+                                <h3 id="carousel-1-slide-4-title">Paris!</h3>
+                                <p></p>
                             </div>
-                            <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-4-title">
-                                <div class="slide-content">
-                                    <div class="slide-caption">
-                                        <h3 id="carousel-1-slide-4-title">When we visited Anheiser Busch</h3>
-                                        <p></p>
-                                    </div>
 
-                                    <img src="/assets/lights.JPG" alt="Josh and Olivia in a light tunnel" width="800"
-                                        height="350" />
-                                </div>
-                            </div>
-                            <div class="slide" role="tabpanel" aria-labelledby="carousel-1-slide-4-title">
-                                <div class="slide-content">
-                                    <div class="slide-caption">
-                                        <h3 id="carousel-1-slide-4-title">Paris!</h3>
-                                        <p></p>
-                                    </div>
-
-                                    <img src="/assets/polariod.png" alt="Josh and Olivia at the Eiffel Tower"
-                                        width="800" height="350" />
-                                </div>
-                            </div>
+                            <img src="/assets/polariod.png" alt="Josh and Olivia at the Eiffel Tower" width="800"
+                                height="350" />
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-        <div class="col">
-            <div class="aboutUsText">
-                <p class="text-center">
-                    We recently graduated from Hendrix College (May 2024). Josh graduated with a History major and Comp
-                    Sci minor and Olivia graduated with a Comp Sci major and a Psychology minor.
-                    Josh is originally from St. Louis and Olivia is from central Arkansas. After graduation we decided
-                    to move up here to be close to Josh's family and so Olivia could try living somewhere new!
-                    So far we love living up here! Josh has joined an ultimate frisbee club team and Olivia has had a
-                    lot of fun exploring the area.
-                    We love to bike, walk around neighborhoods, and go to as many local events as we can.
-                    We recently started pet sitting because we both love animals and as we are continuing to look for
-                    jobs this is what we're doing in the meantime.
 
-                </p>
+
+            <div class="overflow-scroll">
+                <div class="aboutUsText">
+                    <p class="text-center">
+                        We recently graduated from Hendrix College (May 2024). Josh graduated with a History major
+                        and Comp
+                        Sci minor and Olivia graduated with a Comp Sci major and a Psychology minor.
+                        Josh is originally from St. Louis and Olivia is from central Arkansas. After graduation we
+                        decided
+                        to move up here to be close to Josh's family and so Olivia could try living somewhere new!
+                        So far we love living up here! Josh has joined an ultimate frisbee club team and Olivia has
+                        had a
+                        lot of fun exploring the area.
+                        We love to bike, walk around neighborhoods, and go to as many local events as we can.
+                        We recently started pet sitting because we both love animals and as we are continuing to
+                        look for
+                        jobs this is what we're doing in the meantime.
+
+                    </p>
+                </div>
             </div>
+
+
+            <script src="/carousel/Carousel.js"></script>
+            <script>
+                const carousel1 = JSCarousel({
+                    carouselSelector: "#carousel-1",
+                    slideSelector: ".slide",
+                    enablePagination: true,
+                });
+
+                carousel1.create();
+
+                window.addEventListener("unload", () => {
+                    carousel1.destroy();
+
+                });
+            </script>
         </div>
-
-        <script src="/carousel/Carousel.js"></script>
-        <script>
-            const carousel1 = JSCarousel({
-                carouselSelector: "#carousel-1",
-                slideSelector: ".slide",
-                enablePagination: true,
-            });
-
-            carousel1.create();
-
-            window.addEventListener("unload", () => {
-                carousel1.destroy();
-
-            });
-        </script>
-    </div>
 
 </body>
 
