@@ -16,18 +16,28 @@
     </style>
 
     <link rel="stylesheet" href="style.css" />
-    
 
-    
+    <!--map estimator-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/lrm-graphhopper/dist/lrm-graphhopper.js"></script>
+
 </head>
 
 <body>
     <div class="contactus">
-        <button type="button" class="buttonBack" onclick="window.location.href = 'index.html';" >back</button>
+        <button type="button" class="buttonBack" onclick="window.location.href = 'index.html';">back</button>
         <div class="container">
             <div class="text-center">
                 <h1>contact us</h1>
             </div>
         </div>
     </div>
+    <input id="user-address" type="text" placeholder="Enter your address">
+    <button onclick="calculateDistance()">Calculate Distance</button>
+    <div id="result"></div>
+
+    <script src="/map/map.js"></script>
 </body>
