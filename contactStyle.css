@@ -1,3 +1,47 @@
 body{
     background-color: #84D2F6;
 }
+
+.contactUsText{
+    font-size: max(1em, 25px);
+    line-height: 1.25;
+    font-family: 'Open Sans', arial, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+
+.linkText{
+    color: #6AA8F9;
+}
+
+h2{
+    color: black;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size-adjust: 80%;
+}
+
+input{
+    background-color: white;
+    border-radius: 12px;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#6AA8F9;
+    margin: 10px;
+}
+
+button{
+    background-color: #EDAF97;
+    border-radius: 12px;
+    font-family: 'Gloria Hallelujah', arial, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:white;
+    margin: 10px;
+}

@@ -28,27 +28,39 @@
 </head>
 
 <body>
+
+
     <div class="contactus">
         <button type="button" class="buttonBack" onclick="window.location.href = 'index.html';">back</button>
-        <div class="container">
+        <div class="container" style="padding-bottom: 40px;">
             <div class="text-center">
                 <h1>contact us</h1>
             </div>
         </div>
     </div>
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <h2>For any questions or if you want to book please email: JoshThomeczek@gmail.com or text: 613-825-0208</h2>
+                <div class = "contactUsText">
+                    <h2>For any questions or to book, please email:</h2>
+                    <h2><a href="mailto:joshthomeczek@gmail.com" class="linkText">JoshThomeczek@gmail.com</a></h2>
+                    <h2>or call or text:</h2>
+                    <h2><a href="tel:3148250208" class="linkText">(314) 825-0208</a></h2>
+                </div>
             </div>
             <div class="col-6">
-                <h3>Want to know how much extra it'll cost for us to come to you?</h3>
-                <p> Try this distance calucator! Input your address including city and state and it'll give you an
-                    estimate!</p>
+                <div class = "contactUsText">
+                    <h2>Want to know how much extra it'll cost for us to come to you?</h2>
+                    <h3> Try this distance calucator! Input your address including city and state and it'll give you an
+                        estimate!</h3>
 
-                <input id="user-address" type="text" placeholder="Enter your address">
-                <button onclick="calculateDistance()">Calculate Distance</button>
-                <div id="result"></div>
+                    <input id="user-address" type="text" placeholder="Enter your address">
+                    <button onclick="calculateDistance()">Calculate Distance</button>
+                    <h3 id="result"></h3>
+                </div>
             </div>
         </div>
 
