@@ -8,6 +8,13 @@ h1{
 }
 .button{
     padding:10px;
+
+}
+@media only screen and (max-width: 799px) {
+    .button {
+       display:grid;
+       flex-wrap: wrap;
+    }
 }
 .button1{
     background-color:#ABC798;
@@ -43,6 +50,7 @@ h1{
     margin-left: 10px;
     float: left
 }
+
 
 .aboutus{
     background-color:#ABC798;
