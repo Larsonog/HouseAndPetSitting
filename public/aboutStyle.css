@@ -165,3 +165,7 @@ iframe {
   transform: scale(1.5);
   background-color: var(--carousel-pagination-btn-active-bg);
 }
+
+h1{
+  text-align: center;
+}
